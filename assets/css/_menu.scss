@@ -1,0 +1,21 @@
+.logo {
+  max-width: 100px;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #0785c0;
+  padding: 10px;
+  margin-bottom: 20px;
+
+  li {
+    font-weight: bold;
+    a {
+      color: $cor-primaria;
+    }
+  }
+}
