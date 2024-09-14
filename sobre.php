@@ -6,6 +6,12 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        /* Espaçamento acima da imagem "SapoNaChuvaPiscando" */
+        .sapo-piscando {
+            margin-top: 20px; /* Define o espaço entre o texto e a imagem */
+        }
+    </style>
 </head>
 
 <body>
@@ -17,7 +23,7 @@
                 <ul class="menu">
                     <li><a href="index.php">Inicial</a></li>
                     <li><a href="sobre.php">Sobre</a></li>
-                    <li>Serviços</li>
+                    <li><a href="Produtos.php">Produtos</a></li>
                     <li><a href="contato.php">Contato</a></li>
                 </ul>
             </div>
@@ -26,6 +32,7 @@
             <div class="position-relative">
                 <h1>Sobre</h1>
                 <p>Nosso sonho e poder fazer os melhores mais unicos guarda chuvas, tanto para quem quer apenas para uso e estilo, quanto para aqueles que querem fazer cosplays ou fantasias num geral!</p>
+                <img src="assets/images/SapoNaChuvaPiscando.jpg" class="img-fluid sapo-piscando" alt="">
                 <img src="assets/images/Sapo Chuvoso.jpg" class="img-fluid foto" alt="">
             </div>
         </main>
